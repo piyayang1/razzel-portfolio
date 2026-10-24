@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Razzel Punut's developer portfolio and projects." />
+  <title>Razzel Punut | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Razzel Punut<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, WORLD! I'M</p>
+          <h1>Razzel <span>Punut</span></h1>
+          <h2>IT Graduate / Aspiring Developer</h2>
+          <p class="intro">I enjoy building useful applications, learning new technologies, and turning ideas into working projects.</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">Explore My Projects <span aria-hidden="true">↘</span></a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials">
+            <!-- Replace YOUR-GITHUB-USERNAME with your GitHub username. -->
+            <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="mailto:YOUR-EMAIL@example.com">Email ↗</a>
+          </div>
+        </div>
+        <div class="hero-art profile-art" aria-label="Portrait of Razzel Punut">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="portrait-frame">
+            <img src="profile.png" alt="Portrait of Razzel Punut" class="profile-photo" />
+            <div class="portrait-caption"><span class="status-dot"></span><div><strong>Razzel Punut</strong><small>Aspiring Developer</small></div></div>
+          </div>
+          <div class="floating-chip chip-top">&lt;/&gt; Developer</div>
+          <div class="floating-chip chip-bottom">✦ Always learning</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 class="section-title">Curious mind.<br><span>Practical solutions.</span></h2>
+        </div>
+        <div class="about-text">
+          <p>I am an IT-focused learner interested in software development, web applications, databases, and system design. I like learning by building projects and improving them step by step.</p>
+          <p>This portfolio is where I share my work, the tools I use, and what I learn along the way.</p>
+          <div class="info-grid">
+            <div><span class="info-icon">⌘</span><strong>My focus</strong><small>Web and app development</small></div>
+            <div><span class="info-icon">⌁</span><strong>My approach</strong><small>Build, test, improve</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">TOOLS I AM LEARNING</p>
+        <h2 class="section-title">Skills & technologies</h2>
+        <p class="section-subtitle">Update this list to match the tools you can confidently use.</p>
+        <div class="skills-grid">
+          <div class="skill"><span class="skill-symbol">C#</span><span>C#</span></div>
+          <div class="skill"><span class="skill-symbol">J</span><span>Java</span></div>
+          <div class="skill"><span class="skill-symbol">Py</span><span>Python</span></div>
+          <div class="skill"><span class="skill-symbol">D</span><span>Django</span></div>
+          <div class="skill"><span class="skill-symbol">Fl</span><span>Flutter / Dart</span></div>
+          <div class="skill"><span class="skill-symbol">5</span><span>HTML & CSS</span></div>
+          <div class="skill"><span class="skill-symbol">JS</span><span>JavaScript</span></div>
+          <div class="skill"><span class="skill-symbol">DB</span><span>SQL / Databases</span></div>
+          <div class="skill"><span class="skill-symbol">⌘</span><span>Git & GitHub</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2 class="section-title">Projects I've built</h2></div>
+          <p class="section-subtitle">Add your repository links and screenshots when your projects are ready.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon django">Dj</span><span class="project-type">01 / API</span></div>
+            <h3>Library Book API</h3>
+            <p>A Django REST API project for managing library books, with CRUD operations and room to add authentication and search.</p>
+            <div class="tags"><span>Django</span><span>Python</span><span>REST API</span></div>
+            <a class="project-link" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon flutter">F</span><span class="project-type">02 / MOBILE</span></div>
+            <h3>Flutter Firebase App</h3>
+            <p>A mobile application project using Flutter and Firebase. Describe the main features and what you learned here.</p>
+            <div class="tags"><span>Flutter</span><span>Dart</span><span>Firebase</span></div>
+            <a class="project-link" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon csharp">C#</span><span class="project-type">03 / DESKTOP</span></div>
+            <h3>C# Windows Forms App</h3>
+            <p>A desktop application built with Windows Forms. Add a short explanation of its purpose, features, and database if used.</p>
+            <div class="tags"><span>C#</span><span>WinForms</span><span>SQL</span></div>
+            <a class="project-link" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </article>
+        </div>
+        <p class="edit-note">These are starter descriptions based on example project types. Edit them to reflect the actual features in your code.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-panel">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2 class="section-title">Let's build something<br><span>useful together.</span></h2></div>
+        <div class="contact-action"><p>I'm open to connecting with other learners, developers, and teams.</p><a class="button primary" href="mailto:YOUR-EMAIL@example.com">Send me an email ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>© <span id="year"></span> Razzel Punut</span><span>Made with HTML, CSS & JavaScript</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
